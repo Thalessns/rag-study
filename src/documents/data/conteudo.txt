@@ -1,0 +1,9 @@
+Minha Trajetória Profissional e Prática
+
+Como estudante de Sistemas de Informação na USP, com previsão de formatura para junho de 2026 , venho construindo uma base prática sólida com foco em desenvolvimento de aplicações e backend.
+
+Minha principal experiência profissional até o momento foi na First Digital Services (Santander), onde atuei como Estagiário em GenAI entre novembro de 2023 e novembro de 2025. Durante esse período, integrei um time dedicado ao desenvolvimento de uma plataforma interna de IA Generativa baseada em RAG (Retrieval Augmented Generation).
+
+No dia a dia, tive a oportunidade de atuar ativamente na criação de códigos em Python, desenvolvendo APIs com FastAPI para a disponibilização de microsserviços. Também fui responsável por gerenciar bancos de dados MySQL utilizando ferramentas como Alembic e SQLAlchemy. Além do desenvolvimento, ganhei uma visão valiosa sobre infraestrutura e operações, lidando com deploys através de Jenkins e GitHub Actions , e trabalhando com containerização usando Docker e Kubernetes em ambientes Red Hat e AWS.
+
+Atualmente, busco a minha primeira oportunidade efetiva como Desenvolvedor Júnior ou Trainee. Sou movido pela curiosidade e pela resolução de problemas, e o meu objetivo agora é ingressar em um ambiente onde eu possa continuar evoluindo tecnicamente e contribuir com soluções que gerem impacto real.

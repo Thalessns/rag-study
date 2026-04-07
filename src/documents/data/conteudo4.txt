@@ -1,0 +1,15 @@
+As linguagens de programação mais usadas atualmente, com base em pesquisas de mercado e plataformas como o GitHub, são dominadas por
+JavaScript, Python, e Java. JavaScript é líder para desenvolvimento web, Python domina em IA e dados, enquanto Java e C# permanecem fortes em sistemas corporativos. A escolha varia conforme o objetivo, com TypeScript e C++ também ganhando destaque. 
+
+    JavaScript: A linguagem mais usada no mundo, essencial para interatividade web e front-end, além de backend com Node.js.
+    Python: Popular pela simplicidade, lidera em ciência de dados, machine learning (IA) e automação.
+    Java: Altamente utilizado em sistemas corporativos de grande porte e desenvolvimento Android.
+    TypeScript: Uma versão "tipada" do JavaScript que ganhou grande popularidade por aumentar a segurança e a organização do código em projetos web.
+    C#: Muito utilizado no desenvolvimento de jogos (Unity) e aplicações Windows.
+    C/C++: Cruciais para sistemas de alto desempenho, embarcados, jogos e programação de baixo nível.
+    PHP: Ainda fundamental para desenvolvimento backend web e sistemas de gestão de conteúdo (CMS).
+    Swift: Linguagem principal para o desenvolvimento de aplicativos no ecossistema Apple (iOS, macOS).
+    Go (Golang): Criada pelo Google, é muito usada para sistemas escaláveis, nuvem e alta performance.
+    SQL: Embora seja uma linguagem de consulta, é essencial para manipulação de bancos de dados. 
+
+Fatores de Escolha: A popularidade é frequentemente medida pela facilidade de aprendizado, demanda no mercado de trabalho e eficiência em áreas específicas (web, mobile, dados).
