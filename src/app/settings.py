@@ -1,6 +1,6 @@
 """Settings for the application."""
 
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class AppSettings(BaseSettings):
     """Application settings."""

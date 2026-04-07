@@ -10,6 +10,5 @@ if __name__ == "__main__":
         "src.app.main:app",
         host=app_settings.APP_HOST,
         port=app_settings.APP_PORT,
-        reload=app_settings.APP_RELOAD,
-        log_level=app_settings.APP_LOG_LEVEL
+        reload=app_settings.APP_RELOAD
     )
