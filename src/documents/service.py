@@ -64,9 +64,7 @@ class DocumentsService:
         documents = self.__collection.get()
         return await self.__to_document_response(documents)
 
-    async def query_documents(
-        self, querys: list[str], top_k: int
-    ) -> QueryResult:
+    async def query_documents(self, querys: list[str], top_k: int) -> QueryResult:
         """Query the collection for similar documents.
 
         Args:
@@ -77,7 +75,6 @@ class DocumentsService:
             list[]: The similar documents and their metadata.
         """
         return self.__collection.query(query_texts=querys, n_results=top_k)
-
 
     async def __read_document(self, document_name: str) -> list[str]:
         """Read a document from the collection.
@@ -117,5 +114,6 @@ class DocumentsService:
         ):
             result.append(DocumentResponse(id=id, content=content, metadata=metadata))
         return result
+
 
 documents_service = DocumentsService()

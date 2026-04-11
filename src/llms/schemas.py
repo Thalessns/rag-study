@@ -36,5 +36,5 @@ class CompletionUsage(BaseModel):
 class CompletionResponse(BaseModel):
     """Completion response schema."""
 
-    contents: list[str]
+    contents: str
     usage: CompletionUsage

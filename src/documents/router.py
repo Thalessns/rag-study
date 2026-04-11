@@ -6,7 +6,6 @@ from src.documents.schemas import (
     CreateDocumentRequest,
     DocumentResponse,
     QueryDocumentsRequest,
-    
 )
 from src.documents.service import documents_service
 
