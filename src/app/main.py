@@ -3,12 +3,9 @@
 from fastapi import FastAPI
 
 from src.llms.router import llms_router
+from src.documents.router import documents_router
 
-app = FastAPI(
-    title="RAG Study",
-    description="RAG Study",
-    version="0.0.1"
-)
+app = FastAPI(title="RAG Study", description="RAG Study", version="0.0.1")
 
 
 @app.get("/")
@@ -20,4 +17,5 @@ def health_check() -> dict[str, str]:
     return {"message": "Application is alive and well."}
 
 
+app.include_router(documents_router)
 app.include_router(llms_router)

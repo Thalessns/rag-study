@@ -3,18 +3,26 @@
 from pydantic import BaseModel
 
 
+class DocumentRetrievalConfig(BaseModel):
+    """Document retrieval configuration schema."""
+
+    querys: list[str]
+    top_k: int = 3
+
+
 class LLMInfo(BaseModel):
     """Model info response schema."""
 
     name: str
     supported_actions: list[str]
-    
+
 
 class CompletionRequest(BaseModel):
     """Completion request schema."""
 
     model: str
-    content: str
+    input: str
+    document_retrieval_config: DocumentRetrievalConfig | None = None
 
 
 class CompletionUsage(BaseModel):
@@ -28,5 +36,5 @@ class CompletionUsage(BaseModel):
 class CompletionResponse(BaseModel):
     """Completion response schema."""
 
-    contents: list[str]
+    contents: str
     usage: CompletionUsage
