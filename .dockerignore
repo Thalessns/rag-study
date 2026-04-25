@@ -1,0 +1,24 @@
+# Ignore git directories
+.git
+.gitignore
+
+# Ignore pycache and python binaries
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore environments
+.venv
+env/
+venv/
+ENV/
+
+# Ignore Caches that might bloat the image
+.ruff_cache/
+.pytest_cache/
+chroma_db/
+
+# Ignore environment variables
+.env
+.env.*
